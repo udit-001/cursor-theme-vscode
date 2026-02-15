@@ -1,0 +1,42 @@
+{
+  "name": "cursor-theme-vscode-copy",
+  "displayName": "Cursor Theme Copy",
+  "description": "Minimal Cursor-like themes for VS Code.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udit-001/cursor-theme-vscode.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "files": [
+    "themes/**",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cursor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cursor-dark.json"
+      },
+      {
+        "label": "Cursor Dark Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cursor-dark-midnight.json"
+      },
+      {
+        "label": "Cursor Light",
+        "uiTheme": "vs",
+        "path": "./themes/cursor-light.json"
+      }
+    ]
+  }
+}
